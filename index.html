@@ -1,0 +1,203 @@
+<!DOCTYPE html> <!--Declara el tipo de documento como HTML5.Siempre debe ir en la primera linea-->
+<html lang="en"><!--indica el idioma principal es español-->
+<head><!--contiene informacion interna del documento (metadatos). No es contenido visible en la pagina-->
+    <meta charset="UTF-8"><!--define la codificación de caracteres. Permite usar tildes,ñ y caracteres especiales correctamente-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Hace que la pagina sea adaptable a  dispositivos móviles (responsive). width=decive-width ajusta el ancho al dispositivo.initial-scale=1.0 establece el zoom inicial-->
+    <title>😁Hoja De Vida CFGG👌</title><!-- establece el titulo en la pestaña de la página web -->
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="styles.css">
+</head><!--cierra la sección de los metadatos -->
+<body><!--contiene todo el contenido visible de la página: textos, imágenes, botones, enlaces, etc. -->
+
+    <main id="pdf-content"><!--Representa el contenido principal de la página, el id="pdf-content" permite convertir esta sección en pdf. -->
+
+        <div class="container my-5"><!-- Es una clase de bootstrap que centra el contenido y le da un ancho adaptable (responsive) -->
+
+            <div class="row shadow-lg rounded-4 overflow-hidden"><!--"row" es parte del sistema de gird (columnas) de bootstrap. sirve para organizar columnas de la fila. -->
+
+                <div class="col-md-4 bg-secondary text-blue p-4"><!-- columna de 4/12, fondo negro, texto azul y espacio interno horizontalmente. -->
+
+                    <header class="text-center"><!--representa el encabezado de la página o sección . "text-center" es una clase de bootstrap que centra todo el texto y contenido interno horizontalmente -->
+                       
+                        <img src="img/Mifoto.jpg" class="rounded-circle border border-4 img-fluid mb-3" alt="CFGG">
+                        <!--Inserta una imagen.src="img/Mifoto.png" indica que la imagen está dentro de la carpeta"img".
+                        "rounded-circle" hace que la imagen sea circular.
+                        "border" agrega un borde alrededor.
+                        "border-4" define el grosor del borde (nivel 4).
+                        "img-fluid" hace que la imagen sea responsive (se adapta al tamaño de pantalla).
+                        "mb-3" agrega margen inferior (margin-bottom nivel 3).
+                        alt="CFGG" es el texto alternativo que aparece si la imagen no carga
+                        y mejora la accesibilidad. -->
+                        <h2 class="fw-bold">Cristian Felipe Giraldo Galeano</h2><!--título de nivel 2. "fw-bold" (font-weight bold) aplica negrilla usando bootstrap. -->
+                        
+                        <h5>Bachiller Academico</h5>
+
+                        <h5>Tecnico En Programación De Software</h5>
+
+
+                    </header>
+
+                    <section class="my-4">
+                        <h5 class="fw-bold mb-3"><i class"fas fa-address-card me-2"></i>contacto</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <a href="https://wa.me/573006910069?text=I'm%20interested%20in%20your%20car%20for%20sale"
+                                target="_blank" class="text-withe">
+                            <i class="fa-brands fa-wgatsapp me-2"></i><!-- https://fontawesome.com/icons/square_facebook -->
+                             +57 3006910069
+                          </a>
+                    </li>
+
+                    <li class="mb-3">
+                        <a href="mailto:cristianfelipegiraldogaleano5@gmail.com" target="_blank" class="text-withe">
+                            <i class="fas fa-envelope me-2"></i>
+                            cristianfelipegiraldogaleano5@gmail.com
+                        </a>
+                    </li>
+
+                    <li class="mb-3"><!-- <Enlace de facebook"></li> -->
+                        <a href="https://www.facebook.com/" target="_blank" class="text-withe">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            facebook/profile.php?id=100076302717074
+                        </a>
+                   </ul>
+               </section>
+
+               <section class="mb-3">
+                <h5 class="fw-bold mb-3"><i class="fas fa-code me-2"></i>habilidades</h5>
+
+                <div class="d-flex justify-content-between">
+                    <span>HTML/CSS</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                    <div class="progress-bar bg-info" style="width: 90%;"></div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span>inglés</span>
+                    <span>40%</span>
+                </div>
+                <div class="progress mb-3" style="height: 8px;">
+                    <div class="progress-bar bg-info" style="width: 60%;"></div>
+                </div>
+               </section>
+
+                </div>
+
+                <!-- Columna Derecha -->
+
+                <div class="col-md-8 p-4" style="background-color: antiquewhite(227, 233, 232);">
+                    <section class="mb-3">
+                        <h4 class="fw-bold text-primary mb-4">
+                            <i class="fas fa-briefcase me-1"></i>
+                            Experiencia Laboral
+                        </h4>
+                        
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h4 class="card titte fw-bold">
+                                    Aprendiz Sena
+                                </h4>
+                                <h5 class="card-subtitle mb-2 text-muted small">
+                                    03 de febrero de 2025 - 30 de noviembre de 2026
+                                </h5>
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    Aprendiz  de SENA en tecnico en programción de software y bachiller Academico estudiantil. 
+                                </h6>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section class="mb-3">
+                        <h4 class="fw-bold text-primary mb-4">
+                            <i class="fa-solid fa-graduation-cap me-1"></i>
+                            Educación
+                        </h4>
+
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    Tecnico en programación de software
+                                </h4>
+                                <h5 class="card-subtitlemb-2 text-muted small">
+                                    2304 horas
+                                </h5>
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    Servicio Nacional De Aprendiz(sena)
+                                    Manizales,03 de febrero de 2025 al 30 de noviembre de 2026
+                                </h6>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    EXPLORANDO EL GRAN UNIVERSO DE LINUX - LINUX BATOCERA
+                                </h4>
+                                <h5 class="card-subtitlemb-2 text-muted small">
+                                    6 horas
+                                </h5>
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    Servicio Nacional De Aprendiz(sena)
+                                    Manizales,22 de abril de 2024
+                                </h6>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                   VARIABLES Y ESTRUCTURAS DE CONTROL EN PYTHON.
+                                </h4>
+                                <h5 class="card-subtitlemb-2 text-muted small">
+                                    48 horas
+                                </h5>
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    Servicio Nacional De Aprendiz(sena)
+                                    Manizales,02 de julio de 2025
+                                </h6>
+                            </div>
+                        </div>
+
+                         <div class="card mb-3">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                   MANTENIMIENTO PREVENTIVO DE MOTOCICLETAS Y MOTOCARROS
+                                </h4>
+                                <h5 class="card-subtitlemb-2 text-muted small">
+                                    48 horas
+                                </h5>
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    Servicio Nacional De Aprendiz(sena)
+                                    Manizales,18 de diciembre de 2025
+                                </h6>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>
+
+        </div>  
+        
+    </main>
+
+    <div class="text-center mb-4">
+        <button onclick="downloadpdf()" class="btn btn-outline-primary">Descarga en pdf 💾💾</button>
+    </div>
+
+    <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body><!-- cierra el cuerpo del dicumento -->
+</html><!-- cierra el documento HTML -->
